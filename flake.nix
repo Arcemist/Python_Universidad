@@ -17,8 +17,9 @@
     in {
       devShells.default = with pkgs; mkShell {
         buildInputs = [
-	  (pkgs.python3.withPackages (python-pkgs: [
-            # Additional python packages go here
+	  (pkgs.python3.withPackages (py-pkgs: with py-pkgs; [
+	    # Add other python pkgs here
+	    # matplotlib
 	  ]))
 	];
 
