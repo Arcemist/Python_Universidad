@@ -40,7 +40,15 @@ class Field(Enum):
 
 pre_processed_data = []
 for i in data[1:]:
+    saltear = False
     e = i.strip().split(",")
+
+    for campo in e:
+        if campo == '':
+            saltear = True
+
+    if saltear:
+        continue
 
     # Eliminar paises con valores faltantes
     if len(e) == Field.QUANTITY.value:
