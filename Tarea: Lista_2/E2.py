@@ -1,8 +1,8 @@
 # Tarea:
-# Leer los datos proveidos sobre paises, poblacion y tamaño e
-# realizar algunas operaciones basicas de procesamiento de datos,
-# como limpiar los datos eliminando filas incompletas y
-# consegir el pais con mayor tamaño y poblacion
+# Leer los datos proveidos e realizar algunas operaciones
+# basicas de procesamiento de datos, como limpiar los datos
+# eliminando filas incompletas y consegir el pais con mayor
+# cantidad de premios
 
 from enum import Enum
 
