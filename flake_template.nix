@@ -20,7 +20,7 @@
 	  (pkgs.python3.withPackages (py-pkgs: with py-pkgs; [
 	    # Add other python pkgs here
 	    # matplotlib
-	      pyls
+	      python-lsp-server
 	  ]))
 	];
 
