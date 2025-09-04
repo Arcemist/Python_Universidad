@@ -18,9 +18,11 @@
       devShells.default = with pkgs; mkShell {
         buildInputs = [
 	  (pkgs.python3.withPackages (py-pkgs: with py-pkgs; [
-	    # Add other python pkgs here
-	    # matplotlib
 	      python-lsp-server
+	      numpy
+	      pandas
+	      matplotlib
+	      seaborn
 	  ]))
 	];
 
