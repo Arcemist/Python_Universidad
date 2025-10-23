@@ -1,4 +1,8 @@
 # Tercer Filtro:
+# Se cambio el medio por el minimo.
+# Y se cambio la ventana de muestrado de 20 a 5 valores.
+
+# Este filtro muestra el valor mas bajo de las ultimas 5 Muestras
 
 import matplotlib.pyplot as plt
 import numpy as np

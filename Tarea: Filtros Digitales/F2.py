@@ -2,6 +2,8 @@
 # Se cambio el uso de media por el maximo.
 # Y se cambio la ventana de filtrado de 20 a 5 valores.
 
+# Este filtro muestra el valor mas alto de las ultimas 5 muestras.
+
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

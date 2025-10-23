@@ -1,5 +1,8 @@
 # Primer Filtro:
-# Se cambio el uso de media por mediana
+# Se cambio el uso de media por mediana.
+
+# Este filtro es bastante parecido al del ejemplo,
+# pero se ve afectado menos por valores extremos.
 
 import matplotlib.pyplot as plt
 import numpy as np
