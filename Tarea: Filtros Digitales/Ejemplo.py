@@ -6,7 +6,7 @@ import pandas as pd
 np.random.seed(5)
 #y = np.array([10,123,5,23,132,5421,4,321,41,123,4,1231,4,12314,123])
 y = np.random.random(100)
-x = np.arange(100)
+#x = np.arange(100)
 print(y)
 df = pd.DataFrame(y, columns=["valores"])
 ventanilla = 20
